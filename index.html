@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./common.css" />
+    <link rel="stylesheet" href="todo.css" />
+    <link rel="stylesheet" href="createForm.css" />
+    <link rel="stylesheet" href="search.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap"
+      rel="stylesheet"
+    />
+    <!-- <link rel="stylesheet" href="theme.css" /> -->
+  </head>
+  <body data-theme="light">
+    <div class="container">
+      <div id="theme"></div>
+      <form id="search">
+        <label class="form-search"
+          ><input name="searsh" type="text" placeholder="Search"
+        /></label>
+        <div class="s">
+          <button class="button-search" type="submit">search</button>
+        </div>
+      </form>
+      <div id="toDos"></div>
+      <form id="create">
+        <label class="title"
+          ><input name="title" type="text" placeholder="Title"
+        /></label>
+        <textarea
+          class="description-form"
+          name="description"
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Description"
+        ></textarea>
+        <div class="q">
+          <button class="create" id="createBtn">Create</button>
+        </div>
+        <div><button type="button" id="editBtn">Edit</button></div>
+      </form>
+    </div>
+  </body>
+  <script type="module" src="./store.js"></script>
+  <script type="module" src="./view.js"></script>
+  <script type="module" src="./service.js"></script>
+</html>
