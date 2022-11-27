@@ -1,0 +1,46 @@
+:root {
+  --fs-xs: 12px;
+  --fs-sm: 18px;
+  --fs-lg: 24px;
+  --fs-extra: 48px;
+
+  --offset-xs: 8px;
+  --offset-sm: 16px;
+  --offset-lg: 24px;
+  --offset-extra: 40px;
+
+  --container-sm: 500px;
+}
+
+body[data-theme="light"] {
+  --bg-color: #fff;
+}
+
+body[data-theme="dark"] {
+  --bg-color: #1e1e1e;
+}
+body[data-theme="custom"] {
+  --bg-color: rgb(84, 45, 99);
+}
+body {
+  background-color: var(--bg-color);
+  min-height: 100vh;
+}
+button {
+  font-family: "Times New Roman", Times, serif;
+  width: 60px;
+}
+.light {
+  background-color: #fff;
+  color: rgba(0, 2, 1, 1);
+}
+.dark {
+  background-color: #1e1e1e;
+  color: #fff;
+  border-color: #d3902a;
+}
+.custom {
+  background-color: rgba(167, 117, 187);
+  color: rgba(255, 252, 245, 0.8);
+  border-color: #fff;
+}

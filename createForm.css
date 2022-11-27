@@ -1,0 +1,48 @@
+#create {
+  display: flex;
+  align-items: baseline;
+  flex-direction: column;
+  width: 350px;
+  border-style: none;
+  border-radius: 20px;
+}
+.description-form {
+  margin-top: 10px;
+  width: 100%;
+  border: none;
+  font-family: "Crimson Text";
+  font-size: medium;
+  border-bottom: 1px solid rgba(90, 104, 162, 1);
+}
+input {
+  border: none;
+  border-bottom: 1px solid rgba(90, 104, 162, 1);
+  font-family: "Crimson Text";
+  font-size: medium;
+}
+label {
+  margin-top: 17px;
+  width: 100%;
+}
+.create {
+  margin-top: 10px;
+  border-radius: 10px;
+  padding: 5px;
+  width: 100px;
+  font-family: "Crimson Text";
+  font-size: medium;
+  background-color: rgba(90, 104, 162, 0.7);
+  border: 1px solid rgba(90, 104, 162);
+  color: #fff;
+}
+.create:hover {
+  transform: scale(1.05);
+  transition: 0.5s;
+  opacity: 80%;
+  cursor: pointer;
+}
+.q {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
